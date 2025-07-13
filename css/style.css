@@ -1,25 +1,53 @@
-body{
-    background-image: url(/images//pizza-3010062_1280.jpg);
-    background-size: contain cover;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-nav{
-    background-color: chocolate;
-    padding: 10px; 
-    text-align: center;
+.parent
+{
+    background-image: url(../images/by\ jenny\ caywood.jpg);
+    background-size: cover ;
+    background-position:center;
+    width: 100vw ;height: 100vh;
 }
-nav a{
-    color: black;
+.child .navbar{
+    background-color: rgb(67, 85, 100);
+    width:100vw ;height: 29px ;
+    
+}
+.child .navbar a {
+    color: rgb(234, 233, 241);
+    font-size: larger;
     text-decoration: none;
+    padding: 10px;
 }
-nav a:hover{
+.child .navbar a:hover{
+    color: rgb(0, 0, 0);
+}
+.paragraph1{
     color: rgb(255, 255, 255);
 }
-h1{
-    color: brown;
+.paragraph2{color:rgb(29, 76, 116);
 }
-.p1{
-    color: rgb(255, 100, 80);
+.paragraph3{color: rgba(0, 0, 0, 0.521);
 }
-h2{
-    color: darkred;
+.paragraph4{color:rgb(213, 221, 231) ;
+}
+
+.data{
+    background-color:rgb(67, 85, 100);
+    width: 300px;
+    background-position: center;
+    
+}
+.Second-address{
+    color: rgb(255, 255, 255);
+}
+
+input{
+    width: 300px;
+    
+}
+#login{
+    width:60px; height: 20px;;
 }
